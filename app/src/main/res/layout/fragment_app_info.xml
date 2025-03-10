@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/appName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="@dimen/app_details_padding"
+        android:paddingVertical="@dimen/app_details_padding" />
+
+    <TextView
+        android:id="@+id/appVersion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="@dimen/app_details_padding"
+        android:paddingVertical="@dimen/app_details_padding" />
+
+    <TextView
+        android:id="@+id/appPackageName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="@dimen/app_details_padding"
+        android:paddingVertical="@dimen/app_details_padding" />
+
+    <TextView
+        android:id="@+id/appMd5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="@dimen/app_details_padding"
+        android:paddingVertical="@dimen/app_details_padding" />
+
+    <Button
+        android:id="@+id/openApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="@dimen/app_details_padding"
+        android:paddingVertical="@dimen/app_details_padding"
+        android:text="@string/apps_details_open_app" />
+
+</LinearLayout>

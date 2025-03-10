@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">InstalledApps</string>
+
+    <string name="apps_list_error">Ошибка получения данных</string>
+    <string name="apps_list_empty_error">Установленных приложений не обнаружено</string>
+
+    <string name="apps_details_app_name">Имя приложения: </string>
+    <string name="apps_details_app_version">Версия приложения: </string>
+    <string name="apps_details_package_name">Имя пакета: </string>
+    <string name="apps_details_package_md5">Контрольная сумма apk-файла: </string>
+    <string name="apps_details_open_app">Запустить приложение</string>
+    <string name="apps_details_open_app_error">Ошибка при запуске приложения</string>
+</resources>
